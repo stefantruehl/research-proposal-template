@@ -15,6 +15,7 @@
     \usepackage{csquotes}
     \usepackage{enumitem}
     \usepackage{ifthen}
+    \usepackage{blindtext}
     
     \include{translatedHeadings}
 
@@ -60,14 +61,36 @@
         Formatierungsvorschlag:
         
         \begin{description}[style=unboxed]
-            \item [\questionOne{\lang}] \textit{Ihre Antwort (1-2 Sätze)}
-            \item [\questionTwo{\lang}] \textit{Ihre Antwort (1-2 Sätze)}
-            \item [\questionThree{\lang}] \textit{Ihre Antwort (1-2 Sätze)}
-            \item [\questionFour{\lang}] \textit{Ihre Antwort (1-2 Sätze)}
+            \item [\questionOne{\lang}] 
+                % ##########################################
+                % # What is the problem? / Was ist das Problem?
+                % # 
+                include answer here
+                % ##########################################
+
+            \item [\questionTwo{\lang}]
+                % ##########################################
+                % # Why is it a problem? / Warum ist es ein Problem?
+                % # 
+                include answer here
+                % ##########################################
+
+            \item [\questionThree{\lang}]
+                % ##########################################
+                % #  What is the solution? / Was ist die Lösung?
+                % # 
+                include answer here
+                % ##########################################
+
+            \item [\questionFour{\lang}]
+                % ##########################################
+                % # Why is it a solution? / Warum ist es eine Lösung?
+                % # 
+                include answer here
+                % ##########################################
         \end{description}
         
         \sectionInitialTOC{\lang}
-        %\section{Vorläufige Gliederung}
         Bitte fügen Sie hier Ihren aktuellen Vorschlag für eine Gliederung ein. 
         Formatierungsvorschlag:
         
