@@ -9,8 +9,7 @@
     \newcommand{\lang}{en}
     % ##########################################
 
-
-    \usepackage[ngerman]{babel}
+    \usepackage{babel}
     \usepackage[utf8]{inputenc} 
     \usepackage{csquotes}
     \usepackage{enumitem}
@@ -19,10 +18,15 @@
     
     \include{translatedHeadings}
 
-    \newcommand{\printTrueOrFalse}[1]
+    \ifthenelse{\equal{en}{\lang}}
     {
-        \ifthenelse{\equal{#1}{true}}{TRUE}{}
-        \ifthenelse{\equal{#1}{false}}{FALSE}{}
+        \selectlanguage{american} 
+    }{
+        \ifthenelse{\equal{de}{\lang}}
+        {
+            \selectlanguage{ngerman}
+        }
+        {\selectlanguage{american}}        
     }
 
     \usepackage[
@@ -62,6 +66,8 @@
     \begin{document}
       \maketitle
         \begin{abstract}
+
+            \ifthenelse{\equal{en}{\lang}}{testen}{}
             % ##########################################
             % # Include your Abstract here 
             % ######
