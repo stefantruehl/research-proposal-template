@@ -1,29 +1,48 @@
-\documentclass[[
-    ngerman,american,%
+\documentclass[
+    ngerman,american
     ]{scrartcl}
 
+    % ##########################################
+    % # Choose your Language
+    % # de = german
+    % # en = english
+    \newcommand{\lang}{en}
+    % ##########################################
 
 
     \usepackage[ngerman]{babel}
     \usepackage[utf8]{inputenc} 
     \usepackage{csquotes}
     \usepackage{enumitem}
+    \usepackage{ifthen}
     
+    \include{translatedHeadings}
+
+    \newcommand{\printTrueOrFalse}[1]
+    {
+        \ifthenelse{\equal{#1}{true}}{TRUE}{}
+        \ifthenelse{\equal{#1}{false}}{FALSE}{}
+    }
+
+
+
     \usepackage[
         bibencoding=utf8, 
         style=alphabetic
     ]{biblatex}
-    
+
     \bibliography{bibliography}
     
     
     \usepackage{amsmath}
-    \title{Your Paper's Title \\ \Large{Outline und Themenvorschlag}}
+    \title{[Your Paper's Title] \\  \Large{\paperSubTitle{\lang}}}
     \author{Author}
     
     \begin{document}
       \maketitle
         \begin{abstract}
+            \printTrueOrFalse{true}
+            \question{\lang}
             Bitte fügen Sie hier einen ersten Entwurf Ihres Abstracts ein. 
             Bitte gehen Sie hierbei insbesondere auf die folgenden Punkte ein:
             
@@ -36,8 +55,7 @@
         \end{abstract}
         
         
-        
-        \section{Fragestellung/Inhalt - 4 Fragen}
+        \sectionQuestions{\lang}
         Bitte beantworten Sie kurz die folgenden 4 Fragen um dazustellen was Sie in Ihrem Paper machen möchten.
         Formatierungsvorschlag:
         
@@ -48,8 +66,8 @@
             \item [Warum ist es eine Lösung?] \textit{Ihre Antwort (1-2 Sätze)}
         \end{description}
         
-        
-        \section{Vorläufige Gliederung}
+        \sectionInitialTOC{\lang}
+        %\section{Vorläufige Gliederung}
         Bitte fügen Sie hier Ihren aktuellen Vorschlag für eine Gliederung ein. 
         Formatierungsvorschlag:
         
@@ -64,7 +82,8 @@
         \end{enumerate}
     
       
-            \section{Quellen}
+        \sectionSource{\lang}
+        %\section{Quellen}
         Bitte fügen Sie hier 10-15 Quellen ein die Sie für Ihr Paper verwenden möchten.
         Formatierungsvorschlag:
         

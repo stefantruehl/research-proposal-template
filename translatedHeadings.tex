@@ -1,0 +1,30 @@
+
+\newcommand{\question}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{Question}{}
+    \ifthenelse{\equal{#1}{de}}{Frage}{}
+}
+
+\newcommand{\paperSubTitle}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{Outline and Research Proposal}{}
+    \ifthenelse{\equal{#1}{de}}{Outline und Themenvorschlag}{}
+}
+
+\newcommand{\sectionQuestions}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{\section{Scope of Work - 4 Questions}}{}
+    \ifthenelse{\equal{#1}{de}}{\section{Ziel der Arbeit - 4 Fragen}}{}
+}
+
+\newcommand{\sectionInitialTOC}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{\section{Preliminary Table of Contents}}{}
+    \ifthenelse{\equal{#1}{de}}{\section{Vorläufige Gliederung}}{}
+}
+
+\newcommand{\sectionSource}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{\section{Related Work}}{}
+    \ifthenelse{\equal{#1}{de}}{\section{Verwandte Arbeiten}}{}
+}
