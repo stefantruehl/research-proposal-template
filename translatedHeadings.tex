@@ -28,3 +28,27 @@
     \ifthenelse{\equal{#1}{en}}{\section{Related Work}}{}
     \ifthenelse{\equal{#1}{de}}{\section{Verwandte Arbeiten}}{}
 }
+
+\newcommand{\questionOne}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{What is the problem?}{}
+    \ifthenelse{\equal{#1}{de}}{Was ist das Problem?}{}
+}
+
+\newcommand{\questionTwo}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{Why is it a problem?}{}
+    \ifthenelse{\equal{#1}{de}}{Warum ist es ein Problem?}{}
+}
+
+\newcommand{\questionThree}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{What is the solution?}{}
+    \ifthenelse{\equal{#1}{de}}{Was ist die Lösung?}{}
+}
+
+\newcommand{\questionFour}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{Why is it a solution?}{}
+    \ifthenelse{\equal{#1}{de}}{Warum ist es eine Lösung?}{}
+}
