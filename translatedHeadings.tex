@@ -34,10 +34,11 @@
     \ifthenelse{\equal{#1}{de}}{\section{Relevante verwandte Arbeiten}}{}
 }
 
+
 \newcommand{\sectionSourceDescription}[1]
 {
-    \ifthenelse{\equal{#1}{en}}{}{In this section identified related work is described.}
-    \ifthenelse{\equal{#1}{de}}{Diese Section stellt verwandte Arbeiten da und erklärt kurz deren Bedeutung für die vorgeschlagene Arbeit}
+    \ifthenelse{\equal{#1}{en}}{In this section, identified related work is described.}{}
+    \ifthenelse{\equal{#1}{de}}{Diese Section stellt verwandte Arbeiten dar und erklärt kurz deren Bedeutung für die vorgeschlagene Arbeit.}{}
 }
 
 \newcommand{\questionOne}[1]

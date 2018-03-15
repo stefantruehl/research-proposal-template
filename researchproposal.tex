@@ -15,7 +15,7 @@
     \usepackage{csquotes}
     \usepackage{enumitem}
     \usepackage{ifthen}
-    \usepackage{blindtext}
+    \usepackage{lipsum}
     
     \include{translatedHeadings}
 
@@ -48,7 +48,7 @@
         %  6. not use too many buzzwords :-)
         insert title here
         % ##########################################
-        \\  \Large{\paperSubTitle{\lang}}}
+        \\  \Large{\paperSubTitle{\lang}}} % don't touch this line
 
     \author{
         % ##########################################
@@ -81,7 +81,7 @@
             % It should NOT be:
             %  - too long/verbose
             %  - too short.
-            \blindtext
+            \lipsum[1-2]
             % ##########################################
 
         \end{abstract}
@@ -221,8 +221,7 @@
     
       
         \sectionSource{\lang}
-        \sectionSourceDescription{\lang}Bitte fügen Sie hier 10-15 Quellen ein die Sie für Ihr Paper verwenden möchten.
-        Formatierungsvorschlag:
+        \sectionSourceDescription{\lang}
 
         % ##########################################
         % # Overview of identified relevant work
