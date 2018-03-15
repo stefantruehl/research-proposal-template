@@ -25,8 +25,6 @@
         \ifthenelse{\equal{#1}{false}}{FALSE}{}
     }
 
-
-
     \usepackage[
         bibencoding=utf8, 
         style=alphabetic
@@ -36,23 +34,56 @@
     
     
     \usepackage{amsmath}
-    \title{[Your Paper's Title] \\  \Large{\paperSubTitle{\lang}}}
-    \author{Author}
+    \title{
+        % ##########################################
+        % # Include the the title of your paper/thesis here.
+        % # ##### 
+        % Coming up with a good title is hard.
+        % It should:
+        %  1. capture the contents of the your work
+        %  2. not be to broad or generic
+        %  3. use established terms and wordings
+        %  4. make people curious about your work
+        %  5. use current buzzwords if possilbe (but do it right)
+        %  6. not use too many buzzwords :-)
+        insert title here
+        % ##########################################
+        \\  \Large{\paperSubTitle{\lang}}}
+
+    \author{
+        % ##########################################
+        % # Your name
+        % # #####
+        % # well, that should be obvious, right? 
+        your name
+        % ##########################################
+        }
     
     \begin{document}
       \maketitle
         \begin{abstract}
-            \printTrueOrFalse{true}
-            \question{\lang}
-            Bitte fügen Sie hier einen ersten Entwurf Ihres Abstracts ein. 
-            Bitte gehen Sie hierbei insbesondere auf die folgenden Punkte ein:
-            
-            \begin{enumerate}
-                \item Was ist der Inhalt des Papers?
-                \item Warum ist das Thema relevant?
-                \item Wie sieht Ihre Antwort/Ergebnisse aus?
-                \item Wie belegen Sie, dass Ihre Antwort/Ergebnisse valide sind?
-            \end{enumerate}
+            % ##########################################
+            % # Include your Abstract here 
+            % # #####
+            % I would strongly suggest to start working on the abstract only 
+            % after you have answered the 4 questions in Section 1. As this will
+            % make it much easier for you to come up with an abstract that
+            % is to the point, short, and still summarizing all the most crucial 
+            % results of your work.
+            %
+            % The abstract should include the following points:
+            %  - an short but to the point introduction of the problem area
+            %  - what is the topic/problem, tackled in your work? 
+            %  - why is the topic/problem of your work relevant? Why should the reader care?
+            %  - what are the results/answers of your work?
+            %  - how did you gain your results and what is their quality?
+            %
+            % It should not:
+            %  - be too verbose/long
+            %  - be to short.
+            \blindtext
+            % ##########################################
+
         \end{abstract}
         
         
@@ -65,21 +96,21 @@
                 % ##########################################
                 % # What is the problem? / Was ist das Problem?
                 % # 
-                include answer here
+                insert answer here
                 % ##########################################
 
             \item [\questionTwo{\lang}]
                 % ##########################################
                 % # Why is it a problem? / Warum ist es ein Problem?
                 % # 
-                include answer here
+                insert answer here
                 % ##########################################
 
             \item [\questionThree{\lang}]
                 % ##########################################
                 % #  What is the solution? / Was ist die Lösung?
                 % # 
-                include answer here
+                insert answer here
                 % ##########################################
 
             \item [\questionFour{\lang}]
