@@ -10,16 +10,34 @@
     \ifthenelse{\equal{#1}{de}}{\section{Ziel der Arbeit - 4 Fragen}}{}
 }
 
+\newcommand{\sectionQuestionsDescription}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{In this section the essence of the proposed work is described by answering four key questions. }{}
+    \ifthenelse{\equal{#1}{de}}{Im Folgenden wird der Kern der Arbeit beschrieben indem vier Kernfragen beantwortet werden.}{}
+}
+
 \newcommand{\sectionInitialTOC}[1]
 {
     \ifthenelse{\equal{#1}{en}}{\section{Preliminary Table of Contents}}{}
     \ifthenelse{\equal{#1}{de}}{\section{Vorläufige Gliederung}}{}
 }
 
+\newcommand{\sectionInitialTOCDescription}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{In this section the table of contents for the proposed work is described.}{}
+    \ifthenelse{\equal{#1}{de}}{Im Folgenden wird ein Inhaltverzeichnis für die vorgeschlagene Arbeit vorgestellt.}{}
+}
+
 \newcommand{\sectionSource}[1]
 {
-    \ifthenelse{\equal{#1}{en}}{\section{Related Work}}{}
-    \ifthenelse{\equal{#1}{de}}{\section{Verwandte Arbeiten}}{}
+    \ifthenelse{\equal{#1}{en}}{\section{Relevant Related Work}}{}
+    \ifthenelse{\equal{#1}{de}}{\section{Relevante verwandte Arbeiten}}{}
+}
+
+\newcommand{\sectionSourceDescription}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{}{In this section identified related work is described.}
+    \ifthenelse{\equal{#1}{de}}{Diese Section stellt verwandte Arbeiten da und erklärt kurz deren Bedeutung für die vorgeschlagene Arbeit}
 }
 
 \newcommand{\questionOne}[1]
