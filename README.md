@@ -1,9 +1,26 @@
 # Latex Template for Research Proposals
-Students of Computer Science at the Computer Science department of [h_da University of Applied Sciences Darmstadt](https://www.fbi.h-da.de/fbi.html "Hochschule Darmstadt, University of Applied Sciences") frequently have to write seminar papers and in the end of their studies a thesis (Bachelor's Thesis or Master's Thesis, depending on the degree they aim for). 
-
-Basing idea with 4 key questions, abstract, ToC, and Literature
+Students at the Computer Science department of [University of Applied Sciences Darmstadt](https://www.fbi.h-da.de/fbi.html "Hochschule Darmstadt, University of Applied Sciences") frequently have to write seminar papers during their studies and in the end of their studies a thesis (Bachelor's Thesis or Master's Thesis, depending on the degree they aim for). 
+During the creation of these papers (or theses), one of the major challenges for many students is to find the topic they are going to write about and shape it the way that it is interesting and of relevance.
 
 The purpos of this template is to support students in developing and defining the essence of what they want to write their scientific paper about. 
+As a supervisor I ask my students to fill it in and have them write down their ideas. 
+
+The most important part is to have them answer the following four questions (within in the template they are described in much further detail as LaTeX comments):
+- What is the problem?
+    - The objective here is to have students give a very brief description (1 sentence) of the problem they want to adress in their work.
+- Why is it a problem?
+    - Why is the problem at all relevant? Why should we spend effort into investigating/solving it?
+- What is the solution?
+    - What results have been (or will be) produced? How do these results address the proposed problem?
+- Why is it a solution?
+    - What is the quality of the results? What shortcomings are there? How did the student ensure that the results are genuine?
+
+Furthermore, I ask them to provide:
+- A abstract of their proposed work
+- A proposal for a table of contents
+- relevant/significant pieces of related work they have already found
+
+
 
 
 ## <a name="FillInTemplate"></a> How to fill in the Template?! 
