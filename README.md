@@ -104,5 +104,5 @@ The essence and wisdom of the core of this research proposal is NOT my own.
 
 It is more the collected wisdom from many people that I have met and talked to. 
 Further, I have encountered this style of presenting academic engineering work as a best practice at many well established conferences.
- 
+
 To the best of my knowledge I am just the only one to make it available like that.
