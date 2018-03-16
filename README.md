@@ -1,9 +1,21 @@
 # Latex Template for Research Proposals
+This LaTeX template can be used to draft and outline the topic for a academic paper or thesis in Computer Science. 
+I have found it particular helpful for topics that are more on the engineering side of CS.
+
+## Table of Contents
+1. [Core Ideas and Concept](#Concept)
+2. [How to fill in the Template?!](#FillInTemplate)
+3. [PDF generation Tool Chain](#ToolChain)
+4. [Credits](#Credits)
+
+## <a name="Concept"></a> Core Ideas and Concept
 Students at the Computer Science department of [University of Applied Sciences Darmstadt](https://www.fbi.h-da.de/fbi.html "Hochschule Darmstadt, University of Applied Sciences") frequently have to write seminar papers during their studies and in the end of their studies a thesis (Bachelor's Thesis or Master's Thesis, depending on the degree they aim for). 
 During the creation of these papers (or theses), one of the major challenges for many students is to find the topic they are going to write about and shape it the way that it is interesting and of relevance.
 
 The purpos of this template is to support students in developing and defining the essence of what they want to write their scientific paper about. 
-As a supervisor I ask my students to fill it in and have them write down their ideas. 
+
+As a supervisor I ask my students to fill it in and have them write down their ideas.
+Based on this document I will discuss their ideas with them, helping them to shape a good storyline for their work. 
 
 The most important part is to have them answer the following four questions (within in the template they are described in much further detail as LaTeX comments):
 - What is the problem?
@@ -52,7 +64,7 @@ This is done by opening _researchproposal.tex_ and stating the language in the f
     % ##########################################
 
 
-#### Step 2: Create your Proposal
+#### Step 2: Create your Proposal - Fill in your ideas!
 Obviously, filling in your content is the most important step. 
 In order to do that, you will find a lot of comment blocks in the document. 
 These you have to fill in. 
@@ -69,4 +81,11 @@ It uses:
 
 Assuming you are familiar with LaTeX it should easily be setup. 
 
+## <a name="Credits"></a> Credits
+The essence and wisdom of the core of this research proposal is NOT my own. 
+
+It is more the collected wisdom from many people that I have met and talked to. 
+Further, I have encountered this style of presenting academic engineering work as a best practice at many well established conferences. 
+
+To the best of my knowledge I am just the only one to make it available like that. 
 
