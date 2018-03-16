@@ -45,7 +45,11 @@ __Important:__ Read and follow the explanations for each comment block!
 
 
 ## <a name="ToolChain"></a> PDF generation Tool Chain
+There is nothing special about the tool chain used to generate the pdf. 
+It uses:
+- pdflatex - to generate a pdf document
+- biber - to process the bibliography
 
-Description of the tool chain
+Assuming you are familiar with LaTeX it should easily be setup. 
 
 
