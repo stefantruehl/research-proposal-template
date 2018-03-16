@@ -1,5 +1,5 @@
 # Latex Template for Research Proposals
-This LaTeX template can be used to draft and outline the topic for a academic paper or thesis in Computer Science. 
+This LaTeX template can be used to draft and outline the topic for a academic paper or thesis in Computer Science (in English and German language). 
 I have found it particular helpful for topics that are more on the engineering side of CS.
 
 ## Table of Contents
@@ -9,22 +9,26 @@ I have found it particular helpful for topics that are more on the engineering s
 4. [Credits](#Credits)
 
 ## <a name="Concept"></a> Core Ideas and Concept
-Students at the Computer Science department of [University of Applied Sciences Darmstadt](https://www.fbi.h-da.de/fbi.html "Hochschule Darmstadt, University of Applied Sciences") frequently have to write seminar papers during their studies and in the end of their studies a thesis (Bachelor's Thesis or Master's Thesis, depending on the degree they aim for). 
+Students at the Computer Science department of [University of Applied Sciences Darmstadt](https://www.fbi.h-da.de/fbi.html "Hochschule Darmstadt, University of Applied Sciences") frequently have to write seminar papers. 
+In addition, they have craft a comprehensive thesis (Bachelor's Thesis or Master's Thesis, depending on the degree they aim for) at the end of their studies. 
 During the creation of these papers (or theses), one of the major challenges for many students is to find the topic they are going to write about and shape it the way that it is interesting and of relevance.
 
-The purpos of this template is to support students in developing and defining the essence of what they want to write their scientific paper about. 
+The purpose of this template is to support students in developing and defining the essence of what they want to write their academic papers about. 
 
-As a supervisor I ask my students to fill it in and have them write down their ideas.
-Based on this document I will discuss their ideas with them, helping them to shape a good storyline for their work. 
+As a supervisor I ask my students to fill it the template already at the start of their research projects.
+It forces them to write down, rethink, and reshape their research ideas.
+Based on this document I will discuss their ideas with them, helping them to shape a good storyline and strategy for their work. 
 
-The most important part is to have them answer the following four questions (within in the template they are described in much further detail as LaTeX comments):
-- What is the problem?
-    - The objective here is to have students give a very brief description (1 sentence) of the problem they want to adress in their work.
-- Why is it a problem?
+Usually my students create multiple iterations of this documents as they dive deeper and deeper into their area of research and gain deeper understanding of what they want to accomplish.
+
+The most important part for the students, is to have them answer the following four questions (within in the template they are described in much further detail as LaTeX comments):
+- __What is the problem?__
+    - The objective here is to have students give a very brief and to the point description (1 sentence) of the problem they want to address within their paper.
+- __Why is it a problem?__
     - Why is the problem at all relevant? Why should we spend effort into investigating/solving it?
-- What is the solution?
+- __What is the solution?__
     - What results have been (or will be) produced? How do these results address the proposed problem?
-- Why is it a solution?
+- __Why is it a solution?__
     - What is the quality of the results? What shortcomings are there? How did the student ensure that the results are genuine?
 
 Furthermore, I ask them to provide:
@@ -33,27 +37,24 @@ Furthermore, I ask them to provide:
 - relevant/significant pieces of related work they have already found
 
 
-
-
 ## <a name="FillInTemplate"></a> How to fill in the Template?! 
-The intention of the setup of this template was to be as easily usable as possible. 
-However, nevertheless there are a few things to keep in mind while using it. 
-The following guide is supposed to assist you in using it. 
+The intention of this template was to be as easily usable as possible. 
+Nevertheless, there are a few things to keep in mind while using it. 
+The following guide is supposed to assist you in using it as smooth as possible. 
 
 
 #### Step 0: Clone, Open, and Generate a PDF
-Start by cloning of downloading the template and opening it in your favorit LaTeX environment. 
+Start by cloning or downloading the template and opening it in your favorite LaTeX environment. 
 The template is set up the way that, at this point, you should be able to generate a PDF without any errors or warnings. 
 
-In case you have trouble generating the PDF, please take a look to the below section on the [PDF generation tool chain](#ToolChain).
+In case you have trouble generating the PDF, please take a look to the [PDF generation tool chain](#ToolChain) section.
 This may help you getting the PDF generated.
 
 
 #### Step 1: Choose Language
 Please acknowledge that the template is bilingual.
-It can be used to create a research proposal in english or in german. 
-
-This means the first thing you have to do, is choose the language that you want to use. 
+It can be used to create a research proposal in English or in German language. 
+Thus, the first thing you have to do is choosing the language that you want to use. 
 This is done by opening _researchproposal.tex_ and stating the language in the following comment block.
 
     % ##########################################
@@ -66,11 +67,27 @@ This is done by opening _researchproposal.tex_ and stating the language in the f
 
 #### Step 2: Create your Proposal - Fill in your ideas!
 Obviously, filling in your content is the most important step. 
-In order to do that, you will find a lot of comment blocks in the document. 
-These you have to fill in. 
+In order to do that, you will find a lot of comment blocks in the document that assist you.
 These blocks will also give you further explanations about what you need to consider and keep in mind.
+This is where you need to fill in your content.
 
 __Important:__ Read and follow the explanations for each comment block!
+
+The following is an example for these blocks: 
+
+    % ##########################################
+    % # Include the the title of your paper/thesis here.
+    % ###### 
+    % Coming up with a good title is hard.
+    % It should:
+    %  1. capture the contents of the your work
+    %  2. not be to broad or generic
+    %  3. use established terms and wordings
+    %  4. make people curious about your work
+    %  5. use current buzzwords if possilbe (but do it right)
+    %  6. not use too many buzzwords :-)
+    insert title here
+    % ##########################################
 
 
 ## <a name="ToolChain"></a> PDF generation Tool Chain
@@ -79,13 +96,12 @@ It uses:
 - pdflatex - to generate a pdf document
 - biber - to process the bibliography
 
-Assuming you are familiar with LaTeX it should easily be setup. 
+Assuming you are familiar with LaTeX it should easily be set up. 
 
 ## <a name="Credits"></a> Credits
 The essence and wisdom of the core of this research proposal is NOT my own. 
 
 It is more the collected wisdom from many people that I have met and talked to. 
-Further, I have encountered this style of presenting academic engineering work as a best practice at many well established conferences. 
-
-To the best of my knowledge I am just the only one to make it available like that. 
-
+Further, I have encountered this style of presenting academic engineering work as a best practice at many well established conferences.
+ 
+To the best of my knowledge I am just the only one to make it available like that.
