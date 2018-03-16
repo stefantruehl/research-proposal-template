@@ -44,8 +44,9 @@ The following guide is supposed to assist you in using it as smooth as possible.
 
 
 #### Step 0: Clone, Open, and Generate a PDF
-Start by cloning or downloading the template and opening it in your favorite LaTeX environment. 
-The template is set up the way that, at this point, you should be able to generate a PDF without any errors or warnings. 
+Start by cloning or downloading this repository and opening the _researchproposal.tex_ file in your favorite LaTeX environment. 
+The template is set up the way that, at this point, you should be able to generate a PDF without any errors or warnings.
+This will allow you to double check that your environment is set up the way that you can generate a PDF document from the template. 
 
 In case you have trouble generating the PDF, please take a look to the [PDF generation tool chain](#ToolChain) section.
 This may help you getting the PDF generated.
