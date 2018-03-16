@@ -5,30 +5,56 @@ Students of Computer Science at the Computer Science department of [h_da Univers
 The purpos of this template is to support students in developing and defining the essence of what they want to write their scientific paper about. 
 
 
-## How to fill in this Template?! 
+## How to fill in the Template?! 
+The intention of the setup of this template was to be as easily usable as possible. 
+However, nevertheless there are a few things to keep in mind while using it. 
+The following guide is supposed to assist you in using it. 
 
+
+#### Step 0: Clone, Open, and Generate a PDF
+
+
+#### Step 1: Choose Language
+First of, the document is bilingual and, thus, may be used to create research proposals in english or in german. 
+
+
+#### Step 2: Fill in your Content
+
+
+__Important:__ asdf
 
 ## PDF generation Tool Chain
 
+Description of the tool chain
 
 
-## How to use it from scratch?
 
-Setup Visual Studio Code, LaTeX Workshop, and Tex Live
+## How to use this Document from Scratch?
+If you have not LaTeX environment running and want to try it based on this Template you may try the following combination of tools - which is Setup Visual Studio Code as IDE, LaTeX Workshop as extension for VS Code to edit LaTeX, and Tex Live as LaTeX distribution. 
 
-Please understand, it is by no means necessary to use VS Code. If you have a  
-It is just what I use at the moment. I have found it to be very lightweight and easy to use. 
+Please understand, if you have a running environment that makes sense for you - stick with it. It is by no means necessary to use the one poposed below. 
+Further, there are probably better ones out there. However, I personally find this setup highly usable, as it is available for all major operating systems, it is light weight, and easy to use. 
 
 If you want to give it a shoot, here is how to set it up:
 
-1. make sure a LaTeX distribution is installed.
-  * Right now I favor [TeX Live](https://en.wikipedia.org/wiki/TeX_Live "Wikipedia on TeX Live") as it is available for all major operating systems and brings all the packages that I have desired so far
+#### Step 1: Install TeX Live
 
-  * As a Linux user I installed 
+1. Install [TeX Live](https://en.wikipedia.org/wiki/TeX_Live "Wikipedia on TeX Live")
 
 install ___texlive-scheme-full___
 
-[Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code "Wikipedia on VSCode")
+#### Step 2: Install Visual Studio Code and LaTeX Workshop
+
+2. [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code "Wikipedia on VSCode")
+
+#### Step 3: Setup Tool Chain
+3. Install the VS Code Extension called [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop "LaTeX Workshop - Visual Studio Marketplace")
+
+
+
+install ___texlive-scheme-full___
+
+
 
 Make sure you have a LaTeX distribution installed 
 Install Visual Studio Code on your System https://code.visualstudio.com/
