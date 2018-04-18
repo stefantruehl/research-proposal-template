@@ -23,11 +23,11 @@ Based on this document I will discuss their ideas with them, helping them to sha
 Usually my students create multiple iterations of this documents as they dive deeper and deeper into their area of research and gain deeper understanding of what they want to accomplish.
 
 The most important part for the students, is to have them answer the following four questions (within in the template they are described in much further detail as LaTeX comments):
-- __What is the problem?__
+- __What is the problem you want to address in your work?__
     - The objective here is to have students give a very brief and to the point description (1 sentence) of the problem they want to address within their paper.
 - __Why is it a problem?__
     - Why is the problem at all relevant? Why should we spend effort into investigating/solving it?
-- __What is the solution?__
+- __What is the solution you developed in your work?__
     - What results have been (or will be) produced? How do these results address the proposed problem?
 - __Why is it a solution?__
     - What is the quality of the results? What shortcomings are there? How did the student ensure that the results are genuine?
