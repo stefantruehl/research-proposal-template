@@ -6,7 +6,10 @@ I have found it particular helpful for topics that are more on the engineering s
 1. [Core Ideas and Concept](#Concept)
 2. [How to fill in the Template?!](#FillInTemplate)
 3. [PDF generation Tool Chain](#ToolChain)
-4. [Credits](#Credits)
+4. [Setup LaTeX Environment from Scratch](#FromScretchSetup)
+5. [Credits](#Credits)
+
+
 
 ## <a name="Concept"></a> Core Ideas and Concept
 Students at the Computer Science department of [University of Applied Sciences Darmstadt](https://www.fbi.h-da.de/fbi.html "Hochschule Darmstadt, University of Applied Sciences") frequently have to write seminar papers. 
@@ -98,6 +101,14 @@ It uses:
 - biber - to process the bibliography
 
 Assuming you are familiar with LaTeX it should easily be set up. 
+
+## <a name="FromScretchSetup"></a> Setup LaTeX Environment from Scratch
+Please understand, if you have a running environment that makes sense to you - stick with it! It is by no means necessary to use the one poposed here, if you should be in one of my classes. Further, there are probably better environments out there.
+
+If you should not have a working environment, a possible environment setup for LaTeX editing is described [here](https://stefantruehl.github.io/2018/04/30/latexEnvSetup.html). 
+
+
+
 
 
 ## <a name="Credits"></a> Credits
