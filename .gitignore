@@ -2,7 +2,9 @@
 *.bbl
 *.bcf
 *.blg
+*.fdb_latexmk
+*.fls
 *.log
-*.xml
 *.synctex.gz
+*.xml
 .vscode/
