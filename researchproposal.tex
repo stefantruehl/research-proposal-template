@@ -10,12 +10,12 @@
     % ##########################################
 
     \usepackage{babel}
-    \usepackage[utf8]{inputenc} 
+    \usepackage[utf8]{inputenc}
     \usepackage{csquotes}
     \usepackage{enumitem}
     \usepackage{ifthen}
     \usepackage{lipsum}
-    
+
     \include{translatedHeadings}
 
     \ifthenelse{\equal{en}{\lang}}
@@ -26,30 +26,30 @@
         {
             \selectlanguage{ngerman}
         }
-        {\selectlanguage{american}}        
+        {\selectlanguage{american}}
     }
 
     \usepackage[
-        bibencoding=utf8, 
+        bibencoding=utf8,
         style=alphabetic
     ]{biblatex}
 
     \bibliography{bibliography}
-    
-    
+
+
     \usepackage{amsmath}
     \title{
         % ##########################################
         % # Insert the title of your paper/thesis here
-        % ###### 
+        % ######
         % Coming up with a good title is hard.
         % It should:
         %  1. capture the contents of the your work
-        %  2. not be to broad or generic
-        %  3. stick to the truth and don't not oversell
+        %  2. not be too broad or generic
+        %  3. stick to the truth and do not oversell
         %  4. use established terms and wordings
         %  5. make people curious about your work
-        %  6. use current buzzwords if possilbe (but do it right)
+        %  6. use current buzzwords if possible (but do it right)
         %  7. not use too many buzzwords :-)
         insert title here
         % ##########################################
@@ -59,33 +59,33 @@
         % ##########################################
         % # Your name goes here
         % ######
-        % wWll, that should be obvious, right? 
+        % Well, that should be obvious, right?
         Firstname Lastname
         % ##########################################
         }
-    
+
     \begin{document}
       \maketitle
         \begin{abstract}
 
             \ifthenelse{\equal{en}{\lang}}{testen}{}
             % ##########################################
-            % # Include your Abstract here 
+            % # Include your Abstract here
             % ######
-            % I would strongly suggest to start working on the abstract only 
+            % I would strongly suggest to start working on the abstract only
             % after you have answered the 4 questions in Section 1, as this will
             % make it much easier for you to come up with an abstract that
-            % is to the point, short, and still summarizing all the most crucial 
+            % is to the point, short, and still summarizing all the most crucial
             % results of your work.
             %
             % The abstract should include the following points:
             %  - a short but to the point introduction of the problem area
-            %  - what is the topic/problem, tackled in your work? 
-            %  - why is the topic/problem of your work relevant? Why should the 
+            %  - what is the topic/problem, tackled in your work?
+            %  - why is the topic/problem of your work relevant? Why should the
             %    reader care about it?
             %  - what are the results/answers of your work?
             %  - how did you gain your results and what is their quality?
-            %                %  
+            %
             % It should NOT be:
             %  - too long/verbose
             %  - too short
@@ -93,36 +93,36 @@
             % ##########################################
 
         \end{abstract}
-        
-        
+
+
         \sectionQuestions{\lang}
         \sectionQuestionsDescription{\lang}
-        
+
         \begin{description}[style=unboxed]
-            \item [\questionOne{\lang}] 
+            \item [\questionOne{\lang}]
                 % ##########################################
-                % # Question 1: What is the problem you want to address in your work? / 
+                % # Question 1: What is the problem you want to address in your work? /
                 %               Was ist das Problem, welches Sie in Ihrer Arbeit bearbeiten wollen?
                 % ######
-                % The goal of this question is to clearly state what your work is about. 
+                % The goal of this question is to clearly state what your work is about.
                 % What is the problem it is supposed to solve?
                 %
-                % Answering this question is particular important during the early phases 
-                % of your work, in order to gain further insight and understanding about what 
-                % your work is going to cover and address.  
+                % Answering this question is particular important during the early phases
+                % of your work, in order to gain further insight and understanding about what
+                % your work is going to cover and address.
                 %
-                % Answer this question very briefly by stating the problem or research 
+                % Answer this question very briefly by stating the problem or research
                 % question that you want to address/solve in your work.
-                % 
-                % Your answer should: 
+                %
+                % Your answer should:
                 %  - only be 1 sentence (2 sentences max)
-                %  - not cover a statement why the topic is relevant 
+                %  - not cover a statement why the topic is relevant
                 %    for the industry (this is address by the next question)
-                %  - properly use common terms and buzzwords of IT today (similar to the 
+                %  - properly use common terms and buzzwords of IT today (similar to the
                 %    rules for the abstract)
                 %
-                % Please acknowledge: the answer to this question should not cover why the 
-                % problem is important or relevant to anyone (e.g. industry). This will 
+                % Please acknowledge: the answer to this question should not cover why the
+                % problem is important or relevant to anyone (e.g. industry). This will
                 % be addressed with the next question.
                 insert answer here
                 % ##########################################
@@ -131,50 +131,50 @@
                 % ##########################################
                 % # Question 2: Why is it a problem? / Warum ist es ein Problem?
                 % ######
-                % The goal of this question is to describe why your work is relevant. 
-                % Why should the reader care? Why is this the problem (of question 1)
+                % The goal of this question is to describe why your work is relevant.
+                % Why should the reader care? Why is this problem (of question 1)
                 % worth investigating?
                 %
-                % Answering this question is particular important during the early phases 
-                % of your work, in order to gain further insight and understanding of the 
-                % problem domain you are addressing. Further, it is a good checkpoint to 
-                % ensure that you are addressing issues that are not just theoretical but 
-                % have real-world applications. 
+                % Answering this question is particular important during the early phases
+                % of your work, in order to gain further insight and understanding of the
+                % problem domain you are addressing. Further, it is a good checkpoint to
+                % ensure that you are addressing issues that are not just theoretical but
+                % have real-world applications.
                 %
-                % Your answer should: 
-                %  - be 3 - 5 sentences 
+                % Your answer should:
+                %  - be 3 - 5 sentences
                 %  - give a broader overview of the domain/area where your problem occurs
-                %  -- who has this problem?
-                %  -- what is the impact of it?
-                %  -- which conditions need to be fulfilled for the problem to occur?
-                %  -- etc.
+                %      - who has this problem?
+                %      - what is the impact of it?
+                %      - which conditions need to be fulfilled for the problem to occur?
+                %      - etc.
                 %  - describe the benefit of having the problem resolved
                 insert answer here
                 % ##########################################
 
             \item [\questionThree{\lang}]
                 % ##########################################
-                % # Question 3: What is the solution you developed in your work? / 
-                %               Was ist die Lösung die sie entwickelt haben?
+                % # Question 3: What is the solution you developed in your work? /
+                %               Was ist die Lösung die Sie entwickelt haben?
                 % ######
-                % The goal of this question is to describe the results of your work 
-                % ans/or solution to the problem of your work.
-                % 
-                % It is hard/impossible to answer this question in the early phases of 
-                % your work, as usually you do not have results, yet. However, you can 
-                % already state first ideas that you may have in order to discuss them 
-                % with your supervisor. 
+                % The goal of this question is to describe the results of your work
+                % and/or solution to the problem of your work.
+                %
+                % It is hard/impossible to answer this question in the early phases of
+                % your work, as usually you do not have results, yet. However, you can
+                % already state first ideas that you may have in order to discuss them
+                % with your supervisor.
                 %
                 % Your answer should:
-                %  - clearly state all results of your work, that are relevant to your 
-                %    research problem. 
-                %  - not oversell your results, stick you what you actually have 
-                %    accomplished"
-                %  - give credit where credit is due. If you created your results based 
+                %  - clearly state all results of your work, that are relevant to your
+                %    research problem.
+                %  - not oversell your results, stick to what you actually have
+                %    "accomplished"
+                %  - give credit where credit is due. If you created your results based
                 %    on the work of others, give them the credit.
-                %  - if none of your ideas did not produce any usable solution, state 
-                %    so - these attempts are also results! By documenting them, it may 
-                %    prevent others from trying them as well. 
+                %  - if none of your ideas did produce any usable solution, state
+                %    so - these attempts are also results! By documenting them, it may
+                %    prevent others from trying them as well.
                 insert answer here
                 % ##########################################
 
@@ -182,48 +182,48 @@
                 % ##########################################
                 % # Question 4: Why is it a solution? / Warum ist es eine Lösung?
                 % ######
-                % The goal of this question is to describe who you developed your results 
+                % The goal of this question is to describe how you developed your results
                 % and what the quality of them are.
                 % 
                 % Your answer should:
-                %  - short and to the point
+                %  - be short and to the point
                 %  - clearly state how you developed your results
-                %  -- what is the chain of reasoning that led to your results/solution
-                %  -- what statistics, literature, studies, or other literature did you 
-                %     base your assumptions on?
+                %      - what is the chain of reasoning that led to your results/solution?
+                %      - what statistics, literature, studies, or other literature did you
+                %        base your assumptions on?
                 %  - clearly state the quality and applicability of your results
-                %  -- reflect your work objectively - there is no perfection in this 
-                %     world, so your work is not perfect as well. Be aware of that!
-                %  -- how did you ensure that your results are accurate? did you:
-                %  --- perform experiments? 
-                %  --- apply any logical deductions?
-                %  --- mathematical proofs? 
-                %  --- implement a "proof of concept" implementation and evaluate? 
-                %  --- etc.
+                %      - reflect your work objectively - there is no perfection in this
+                %        world, so your work is not perfect as well. Be aware of that!
+                %      - how did you ensure that your results are accurate? did you:
+                %          - perform experiments?
+                %          - apply any logical deductions?
+                %          - use mathematical proofs?
+                %          - implement a "proof of concept" implementation and evaluation?
+                %          - etc.
                 %  - clearly state the shortcomings of your work
-                %  -- be hones and objective about your own work. 
-                %  -- In which cases/scenarios are your results applicable?
+                %      - be honest and objective about your own work
+                %      - in which cases/scenarios are your results applicable?
                 include answer here
                 % ##########################################
         \end{description}
-        
+
         \sectionInitialTOC{\lang}
         \sectionInitialTOCDescription{\lang}
-        
+
         % ##########################################
         % # Proposed table of contents
         % ######
         % The goal of this section is to propose a table of contents. Please keep in
-        % mind: a well created table of contents is very powerful in provide a good 
-        % overview of the overall chain of reasoning of your work. This makes it 
+        % mind: a well created table of contents is very powerful in providing a good
+        % overview of the overall chain of reasoning of your work. This makes it
         % extremely valuable.
-        % 
+        %
         % Please include:
-        %  - names of sections and subsections (please don't go deeper than that unless 
+        %  - names of sections and subsections (please don't go deeper than that unless
         %    your supervisor asks you for it)
         %  - a brief description of the proposed content of each section and subsection
         %    (1-3 sentences)
-        % 
+        %
         \begin{enumerate}
             \item \textbf{Section 1 Name} insert brief description
                     \begin{enumerate}
@@ -233,30 +233,30 @@
             \item \textbf{Section 2 Name} insert brief description
         \end{enumerate}
         % ##########################################
-    
-      
+
+
         \sectionSource{\lang}
         \sectionSourceDescription{\lang}
 
         % ##########################################
         % # Overview of identified relevant work
         % ######
-        % The goal of this section is to provide an overview of the relevant and significant 
+        % The goal of this section is to provide an overview of the relevant and significant
         % related work identified so far. Make sure that your cited sources are of appropriate
         % quality!
-        % 
+        %
         % Please include:
-        %  - a citation of the source using Latex facilities (incl. a generated list of 
+        %  - a citation of the source using LaTeX facilities (incl. a generated list of
         %    references)
-        %  - a brief descriptions of the source and a statement why this is relevant for 
+        %  - a brief descriptions of the source and a statement why this is relevant for
         %    your work (1-2 sentences)
-        % 
+        %
         \begin{description}
         \item[\cite{gruba_how_2017}] insert brief description
         \item[\cite{zobel_writing_2015}] insert brief description
         \end{description}
         % ##########################################
-        
-        
+
+
       \printbibliography
     \end{document}
