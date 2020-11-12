@@ -18,15 +18,11 @@
     
     \include{translatedHeadings}
 
-    \ifthenelse{\equal{en}{\lang}}
+    \ifthenelse{\equal{de}{\lang}}
     {
-        \selectlanguage{american} 
+        \selectlanguage{ngerman} 
     }{
-        \ifthenelse{\equal{de}{\lang}}
-        {
-            \selectlanguage{ngerman}
-        }
-        {\selectlanguage{american}}        
+        \selectlanguage{american}     
     }
 
     \usepackage[
@@ -49,7 +45,7 @@
         %  3. stick to the truth and don't not oversell
         %  4. use established terms and wordings
         %  5. make people curious about your work
-        %  6. use current buzzwords if possilbe (but do it right)
+        %  6. use current buzzwords if possible (but do it right)
         %  7. not use too many buzzwords :-)
         insert title here
         % ##########################################
@@ -59,7 +55,7 @@
         % ##########################################
         % # Your name goes here
         % ######
-        % wWll, that should be obvious, right? 
+        % well, that should be obvious, right? 
         Firstname Lastname
         % ##########################################
         }
@@ -68,7 +64,7 @@
       \maketitle
         \begin{abstract}
 
-            \ifthenelse{\equal{en}{\lang}}{testen}{}
+            \abstractIntro{\lang}
             % ##########################################
             % # Include your Abstract here 
             % ######
@@ -155,7 +151,7 @@
             \item [\questionThree{\lang}]
                 % ##########################################
                 % # Question 3: What is the solution you developed in your work? / 
-                %               Was ist die Lösung die sie entwickelt haben?
+                %               Was ist die Lösung die Sie entwickelt haben?
                 % ######
                 % The goal of this question is to describe the results of your work 
                 % ans/or solution to the problem of your work.
@@ -169,7 +165,7 @@
                 %  - clearly state all results of your work, that are relevant to your 
                 %    research problem. 
                 %  - not oversell your results, stick you what you actually have 
-                %    accomplished"
+                %    accomplished
                 %  - give credit where credit is due. If you created your results based 
                 %    on the work of others, give them the credit.
                 %  - if none of your ideas did not produce any usable solution, state 
