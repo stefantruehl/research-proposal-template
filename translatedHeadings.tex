@@ -4,6 +4,12 @@
     \ifthenelse{\equal{#1}{de}}{Outline und Themenvorschlag}{}
 }
 
+\newcommand{\abstractIntro}[1]
+{
+    \ifthenelse{\equal{#1}{en}}{\textit{Abstract.}}{}
+    \ifthenelse{\equal{#1}{de}}{\textit{Zusammenfassung.}}{}
+}
+
 \newcommand{\sectionQuestions}[1]
 {
     \ifthenelse{\equal{#1}{en}}{\section{Scope of Work - 4 Questions}}{}
